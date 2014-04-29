@@ -17,7 +17,7 @@ public class WhoIsTest {
 			);
 	private static WhoIs whoIs = new WhoIs(GEO_IP_DATA);
 	private String countryCode;
-
+//
 	@Test
 	public void retrieveCountryCodeBasedOnIPAddress() {
 		ip("122.169.55.254").belongsTo("IN");
